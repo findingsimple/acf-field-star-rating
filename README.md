@@ -1,6 +1,5 @@
 # ACF Star Rating Field/s #
 Contributors: jconroy    
-Donate link: http://findingsimple.com/donate  
 Tags: acf, ratings, custom field   
 Requires at least: 3.5  
 Tested up to: 3.5  
