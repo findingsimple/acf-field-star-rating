@@ -1,20 +1,24 @@
-# ACF Star Rating Field/s
+# ACF Star Rating Field/s #
+Contributors: jconroy    
+Donate link: http://findingsimple.com/donate  
+Tags: acf, ratings, custom field   
+Requires at least: 3.5  
+Tested up to: 3.5  
+Stable tag: 1.0
 
 Adds a 'star-rating' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
 
------------------------
-
-### Overview
+## Description ##
 
 Adds a 'star-rating' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
 
-### Compatibility
+## Compatibility ##
 
 This add-on will work with:
 
-* version 4 and up
+* version 4 and up of ACF
 
-### Installation
+## Installation ##
 
 This add-on can be treated as both a WP plugin and a theme include.
 
@@ -37,6 +41,7 @@ function my_register_fields()
 }
 ```
 
-### More Information
+## Changelog ##
 
-Please read the readme.txt file for more information
+### 1.0 ###
+* Initial release
