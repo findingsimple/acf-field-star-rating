@@ -40,6 +40,37 @@ function my_register_fields()
 }
 ```
 
+## Usage ##
+
+This plugin actually adds a standard star rating field and an average star rating field that automatically generates the average score based on other standard star rating fields in the field group. This is useful for storing over all ratings if there a few rating criteria are being used.
+
+**Standard Star Rating Field**
+
+1. Add a new field with a Field Type of "Star Rating".
+2. Set the "Number of Stars" that will be displayed to choose e.g. 5 from along with the default rating e.g. Screenshot 1 below.
+3. Publish the field / group as per ACF standard use. When viewing the group on the post edit screen the "Star Rating" field will now be available e.g. Screenshot 2 below.
+
+**Average Star Rating Field**
+
+1. Add a number of the standard "Star Rating" fields as per above.
+2. Add a new "Star Rating Average" field.
+3. Set the "Number of Stars" that will be displayed to match the number set for the standard star ratings fields.
+4. Publish the field / group as per ACF standard use. When viewing the group on the post edit screen the "Star Rating Average" field will now auto populate the average star score based on the other standard star rating fields in the same group. e.g. Screenshot 3 below.
+
+**Retrieve Ratings**
+
+1. Retrieve the ratings by using standard ACF functions for obtaining field values.
+
+
+## Screenshots ##
+
+![Screenshot 1](screenshot1.jpg)
+
+![Screenshot 2](screenshot2.jpg)
+
+![Screenshot 3](screenshot3.jpg)
+
+
 ## Changelog ##
 
 ### 1.0 ###
