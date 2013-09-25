@@ -78,15 +78,15 @@
 				$(box).find('.star_input').each(function(){
 				
 					var grab_score = $(this).val();
-					
-					overall_score = overall_score + parseInt( grab_score, 10 );
+
+					overall_score = overall_score + parseFloat( grab_score );
 					
 					count++;
 									
 				});
 				
 				overall_score = overall_score / count;
-								
+
 				$(box).find('.star_rating_average').find('.stars').raty('set', { score: overall_score });
 			
 			}
