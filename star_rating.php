@@ -6,7 +6,6 @@ class acf_field_star_rating extends acf_field
 	var $settings, // will hold info such as dir / path
 		$defaults; // will hold default field options
 		
-		
 	/*
 	*  __construct
 	*
