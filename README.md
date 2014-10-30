@@ -9,7 +9,11 @@ Adds a 'star-rating' field type for the [Advanced Custom Fields](http://wordpres
 
 ## Description ##
 
-Adds a 'star-rating' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
+Adds a 'star-rating' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin. 
+
+This plugin is intended to help with people writing reviews that want a nice interface for doing rating/scores within the dashboard. This plugin does NOT DISPLAY STARS on the front end of your site. 
+
+We recommend creating a custom widget, customising your theme etc to display ratings however you choose using something like http://wbotelhos.com/raty
 
 ## Compatibility ##
 
