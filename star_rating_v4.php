@@ -131,8 +131,6 @@ class acf_field_star_rating extends acf_field
 		// register acf scripts
 		wp_register_script( 'jquery-raty', $this->settings['dir'] . 'js/jquery.raty.min.js', array('acf-input', 'jquery'), $this->settings['version'] );
 		wp_register_script( 'acf-input-star_rating', $this->settings['dir'] . 'js/input.js', array('acf-input', 'jquery-raty'), $this->settings['version'] );
-		wp_register_style( 'acf-input-star_rating', $this->settings['dir'] . 'css/input.css', array('acf-input'), $this->settings['version'] ); 
-		
 		
 		// scripts
 		wp_enqueue_script(array(
